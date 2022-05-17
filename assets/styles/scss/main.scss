@@ -1,3 +1,5 @@
+@import "global";
+
 //Imports Fonts
 @import "fonts/roboto";
 @import "fonts/poppins";
@@ -8,7 +10,9 @@
 
 //Imports Components
 @import "components/buttons";
+@import "components/blocks";
+
+//Imports Sections
 @import "components/header";
 
 //Imports Pages
-@import "global";
