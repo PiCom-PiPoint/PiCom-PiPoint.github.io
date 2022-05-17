@@ -31,4 +31,4 @@ jobs:
           mkdir -vp assets/styles/css
 
       - name: Compile CSS from SCSS files
-        run: pwd && ls -lsa
+        run: sass assets/styles/scss/main.scss assets/styles/css/styles.css
