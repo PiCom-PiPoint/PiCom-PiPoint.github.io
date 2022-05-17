@@ -30,5 +30,8 @@ jobs:
           mkdir -vp /tmp/css
           mkdir -vp assets/styles/css
 
+      - name: Install SASS
+        run: npm i -g sass
+
       - name: Compile CSS from SCSS files
         run: sass assets/styles/scss/main.scss assets/styles/css/styles.css
