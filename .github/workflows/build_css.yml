@@ -31,4 +31,3 @@ jobs:
 
       - name: Compile CSS from SCSS files
         run: sass ./assets/styles/scss/main.scss ./assets/styles/css/styles.css
-
