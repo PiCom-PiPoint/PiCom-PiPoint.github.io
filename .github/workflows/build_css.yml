@@ -39,7 +39,7 @@ jobs:
              git config --global user.name "Sylvain Roux"
              git config --global user.email fafmio@outlook.fr
              git config --global user.password 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
-             git pull origin/main build_css_temp
+             git pull main build_css_temp
              git branch build_css_temp
              git checkout build_css_temp
              git add -A
