@@ -1,0 +1,16 @@
+.btn-classic {
+    text-decoration: none;
+    padding: 0.4rem 1.2rem;
+  
+    background: $base_color;
+    border: none;
+    border-radius: 4rem;
+    color: white;
+    
+    //transition: background-color 0.2s;
+
+    &:hover {
+      border: none;
+      background: $secondary_color;
+    }
+  }

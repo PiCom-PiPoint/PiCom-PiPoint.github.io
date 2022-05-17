@@ -1,0 +1,35 @@
+header nav {
+    .nav-logo {
+        width: 10rem;
+    }
+
+    .nav-item {
+        a {
+            font-size: 1.2rem;
+            font-weight: 400;
+
+            margin-left: 0.7rem;
+            margin-right: 0.7rem;
+
+            display: inline-block;
+
+            &::after {
+                content: '';
+                width: 0px;
+                height: 2px;
+                display: block;
+                background: $base_color;
+                transition: 0.2s;
+            }
+
+            &:hover::after {
+                width: 100%;
+            }
+
+            &:hover {
+                color: #F5853F;
+                transition: 0.2s;
+            }
+        }
+    }
+}
