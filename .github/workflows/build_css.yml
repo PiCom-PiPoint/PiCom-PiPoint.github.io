@@ -42,8 +42,7 @@ jobs:
              git pull
              git branch build_css_temp
              git checkout build_css_temp
-             git add -A
-             git commit -m "Build CSS"
+             git pull
              git checkout main
              git merge build_css_temp
 
