@@ -26,9 +26,7 @@ jobs:
       - uses: actions/checkout@v3
       
       - name: Make destination directory for compiled CSS
-        run: |
-          mkdir -vp /tmp/css
-          mkdir -vp assets/styles/css
+        run: mkdir -vp assets/styles/css
 
       - name: Install SASS
         run: npm i -g sass
